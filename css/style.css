@@ -1,0 +1,213 @@
+/* font-family: 'Source Sans Pro', sans-serif;  */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../images/Banner-pic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.navbar-light .navbar-nav .nav-link {
+        color: #fffefe;
+        position: relative;
+        padding: 0;
+        margin: 0;
+}
+.navbar-light .navbar-nav .nav-link::before{
+    content: " ";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 45%;
+
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content: " ";
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 45%;
+}
+.nav-item{
+    padding: 5px 10px;
+}
+.header-content h6{
+    color: #008ed6;
+
+}
+.header-content h1{
+    color: #fffefe;
+
+}
+.header-content p{
+    color: #999999;
+
+}
+.hg{
+    height: 80vh;
+    position: relative;
+}
+.phone-part{
+    position: absolute;
+    bottom: -69px;
+    right: -20px;
+    transform: translate(0px 55px);
+
+}
+.btn-download{
+    background-color: #008ed6;
+    color: #fffefe;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+.btn-download:hover{
+    background-color: transparent;
+    color: #fffefe;
+    border: 1px solid #008ed6;
+}
+.btn-veiw{
+    background-color: transparent;
+    color: #fffefe;
+    border: 1px solid #008ed6;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+.btn-veiw:hover{
+    background-color: #008ed6;
+}
+.heading{
+    position: relative;
+
+}
+.heading::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 44%;
+    transform: translate(-44%);
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+    
+}
+.heading::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 44%;
+    transform: translate(-44%);
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+    
+}
+.feature :hover .heading::before{
+    width: 30px;
+}
+.feature :hover .heading::after{
+    width: 30px;
+}
+.heading h6{
+
+}
+.heading h1{
+    
+}
+.heading p{
+    
+}
+.feature h6{
+
+}
+.feature h1{
+    
+}
+.feature p{
+    
+}
+.icon{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    color: #008ed6;
+    border: 1px solid rgb(218, 215, 215);
+    border-radius: 50%;
+    margin: auto;
+}
+.heading2{
+    position: relative;
+
+}
+.heading2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+    
+}
+.heading2::after{
+    content: "";
+    position: absolute;
+    right: 88%;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+    
+}
+.device:hover .heading2::after{
+    width: 30px;
+
+}
+.device:hover .heading2::before{
+    width: 30px;
+    
+}
+.device ul{
+    list-style: none;
+    margin: 0;
+}
+.device ul li{
+    margin: 5px o;
+    font-size: 16px;
+}
+.device ul li i{
+    margin-right: 10px;
+    font-size: 14px;
+    color: #008ed6;
+}
+.heading2 h6{
+    margin: 10px 0;
+}
+.heading2 h1{
+    margin: 10px 0;
+}
+.heading2 p{
+    margin: 10px 0;
+}
